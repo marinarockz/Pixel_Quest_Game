@@ -7,12 +7,13 @@ Um jogo de memória desenvolvido com uma estética pixel art e uma temática div
 O objetivo é simples: encontrar todos os pares de cartas. O jogador deve virar duas cartas por vez e tentar memorizar suas posições. Quando duas cartas iguais são encontradas, elas formam um par. O desafio é completar o tabuleiro usando a memória e encontrando todos os pares.
 
 🎮 Como jogar
-Clique em uma carta para revelá-la.
-Clique em outra carta para tentar encontrar seu par.
-Se as cartas forem iguais, o par permanece revelado.
-Se forem diferentes, elas são escondidas novamente.
-Continue jogando até encontrar todos os pares.
-Com sua arte em pixel art e temática própria, Pixel Quest transforma o clássico jogo da memória em uma experiência simples, divertida e visualmente marcante.
+
+* Clique em uma carta para revelá-la.
+* Clique em outra carta para tentar encontrar seu par.
+* Se as cartas forem iguais, o par permanece revelado.
+* Se forem diferentes, elas são escondidas novamente.
+* Continue jogando até encontrar todos os pares.
+* Com sua arte em pixel art e temática própria, Pixel Quest transforma o clássico jogo da memória em uma experiência simples, divertida e visualmente marcante.
 
 Você consegue encontrar todos os pares? 🧩🎮
 
