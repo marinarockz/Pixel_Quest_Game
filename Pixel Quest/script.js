@@ -1,5 +1,5 @@
 
-const NUM_PARES = 8;
+const NUM_PARES = 6;
 
 const TEMPO_PARA_VIRAR_DE_VOLTA = 900;
 
