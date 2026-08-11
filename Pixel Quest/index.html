@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Quest</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+
+    <header class="game-header">
+      <h1 class="game-title">Jogo da Memória</h1>
+
+      <div class="game-stats">
+        <div class="stat">
+          <span class="stat-label">Jogadas</span>
+          <span class="stat-value" id="moves">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Pares</span>
+          <span class="stat-value" id="pairs">0/8</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Tempo</span>
+          <span class="stat-value" id="timer">00:00</span>
+        </div>
+      </div>
+
+      <button id="restart-btn" class="btn-pixel">Reiniciar</button>
+    </header>
+
+    <main class="board" id="board"></main>
+
+  </div>
+
+  <div class="overlay hidden" id="win-overlay">
+    <div class="win-modal">
+      <h2>Você venceu!</h2>
+      <p>Jogadas: <span id="final-moves">0</span></p>
+      <p>Tempo: <span id="final-time">00:00</span></p>
+      <button id="play-again-btn" class="btn-pixel">Jogar novamente</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
